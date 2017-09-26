@@ -1,0 +1,32 @@
+/*NAVIGATION*/
+
+.container__header {
+    background: url(img/Shape%201.png);
+    height: 46px;
+    width: 1100px;
+}
+
+.header__nav {
+padding-top: 10px;
+}
+
+.header__nav--link {
+    margin-left: 49px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: right;
+    color: rgba(135, 135, 135, 255);  
+}
+
+.header__nav--link:active {
+    color: #da251d;
+}
+
+.header__nav--link:hover {
+    color: #da251d;
+}
+
+.header__nav--link:last-child{
+    float: right;
+    margin-right: 20px;
+}
