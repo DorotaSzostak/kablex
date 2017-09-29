@@ -1,0 +1,9 @@
+.baner {
+    height: 261px;
+    margin-bottom: 10px;
+    background: url(img_podstrona/Shape%201%20copy.png); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

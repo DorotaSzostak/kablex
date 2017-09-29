@@ -1,0 +1,27 @@
+/*FOOTER*/
+
+.footer {
+    width: 1110px;
+    margin-top: 10px;
+    height: 10px;
+    font-size: 10px;
+}
+
+.footer__left {
+    display: inline-block;
+}
+ .footer__left a:first-child {
+    border-right: 1px solid grey;
+    margin-right: 3px;
+    padding-right: 3px;
+    color: #da251d;
+}
+
+.footer__right {
+    float: right;
+    text-align: left;
+}
+
+.footer__right a{
+    color: #da251d;
+}
