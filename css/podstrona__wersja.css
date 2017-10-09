@@ -3,11 +3,11 @@
 .content {
     position: relative;
     top:15px;
-    background: url(img_podstrona/Shape%201%20copy%202.png);
-    background-size: cover;
+    background-color: #fff;
+    box-shadow: inset 1px 0px 29px -6px rgba(196,196,196,1);
     box-sizing: border-box;
-    height: 686px;
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
     padding-top: 16px;
     padding-left: 20px;
     padding-right: 20px;
@@ -60,13 +60,16 @@
 .gallery__title {
     color: rgba(104, 104, 104, 255);
     text-align: left;
-    width: 410px;
+    width: 40%;
     border-top: 1px solid #e9e9e9;
     padding: 11px;
     
 }
 .gallery {
+    width: 100%;
     max-width: 1110px;
+    padding-left: 1%;
+    padding-bottom: 2%;
     
 }
 
@@ -103,6 +106,12 @@
     position: absolute;
     top: 40%;
     left: 40%;
+}
+
+.gallery:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 

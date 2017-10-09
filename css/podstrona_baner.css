@@ -1,7 +1,9 @@
 .baner {
-    height: 261px;
+    padding-bottom: 2%;
+    padding-top: 2%;
     margin-bottom: 10px;
-    background: url(img_podstrona/Shape%201%20copy.png); 
+    background-color: #fff;
+    box-shadow: inset 1px 0px 29px -6px rgba(196,196,196,1);
     display: flex;
     align-items: center;
     justify-content: center;

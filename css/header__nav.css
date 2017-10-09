@@ -1,9 +1,10 @@
 /*NAVIGATION*/
 
 .container__header {
-    background: url(img/Shape%201.png);
-    height: 46px;
-    width: 1100px;
+    background-color: #fff;
+    box-shadow: inset 1px 0px 29px -6px rgba(196,196,196,1);
+    width: 100%;
+    max-width:1100px;
 }
 
 .header__nav {
