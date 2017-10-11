@@ -1,0 +1,29 @@
+/*FOOTER*/
+
+
+.footer {
+    width: 100%;
+    max-width: 1110px;
+    margin-top: 10px;
+    height: 10px;
+    font-size: 10px;
+}
+
+.footer__left {
+display: inline-block;
+    a:first-child {
+border-right: 1px solid grey;
+margin-right: 3px;
+padding-right: 3px;
+color: $red;
+}
+    
+}
+
+.footer__right {
+float: right;
+text-align: left;
+    a{
+color: $red;
+}
+}

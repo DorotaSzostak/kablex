@@ -45,7 +45,7 @@ h2 {
     height: 640px;
 }
 
-.container__header {
+.header {
     margin-top: 12px;
     height: 36px;
     width: inherit;
@@ -59,7 +59,7 @@ h2 {
    
 }
 
-.header__nav--link {
+.header__link {
     margin-left: 49px;
     font-size: 12px;
     text-decoration: none;
@@ -67,15 +67,15 @@ h2 {
     color: rgba(135, 135, 135, 255);  
 }
 
-.header__nav--link:active {
+.header__link:active {
     color: #da251d;
 }
 
-.header__nav--link:hover {
+.header__link:hover {
     color: #da251d;
 }
 
-.header__nav--link:last-child{
+.header__link:last-child{
     float: right;
     margin-right: 20px;
 }
@@ -243,7 +243,7 @@ h2 {
 }
 /*TABELA*/
 
-.container__text {
+.text {
     position: relative;
     width: 700px;
     height: 300px;
@@ -268,7 +268,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-.table__button {
+.text__button {
     width: 50px;
     height: 15px;
     float: right;
@@ -277,7 +277,7 @@ h2 {
     border: none;
     
 }
-.table__button--first {
+.text__button--first {
    width: 50px;
     height: 15px;
     float: right;
@@ -286,7 +286,7 @@ h2 {
     border: none; 
 }
 
-.table__button--last {
+.text__button--last {
    width: 50px;
     height: 15px;
     float: right;
@@ -298,9 +298,9 @@ h2 {
 
 
 
-.table__button a,
-.table__button--first a,
-.table__button--last a   {
+.text__button a,
+.text__button--first a,
+.text__button--last a   {
     color: #c9c5db;
     font-size: 8px;
 }

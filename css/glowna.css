@@ -15,7 +15,7 @@
     display: none;
 }
 
-.slider__image {
+.slider__content {
     overflow: hidden;
     width: 100%;
     max-width: 1060px;
@@ -156,7 +156,7 @@
 }
 /*TABELA*/
 
-.container__text {
+.text {
     position: relative;
     width: 1100px;
     height: 386px;
@@ -181,7 +181,7 @@
     margin-bottom: 10px;
 }
 
-.table__button {
+.text__button {
     width: 71px;
     height: 20px;
     float: right;
@@ -190,7 +190,7 @@
     border: none;
     
 }
-.table__button--first {
+.text__button--first {
     width: 71px;
     height: 20px;
     float: right;
@@ -199,7 +199,7 @@
     border: none;
 }
 
-.table__button--last {
+.text__button--last {
     width: 71px;
     height: 20px;
     float: right;
@@ -208,9 +208,9 @@
     border: none;
 }
 
-.table__button a,
-.table__button--first a,
-.table__button--last a {
+.text__button a,
+.text__button--first a,
+.text__button--last a {
     color: #c9c5db;
     font-size: 10px;
 }

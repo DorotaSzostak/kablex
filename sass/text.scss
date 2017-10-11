@@ -1,0 +1,47 @@
+/*TABELA*/
+
+.text {
+    width: 100%;
+    max-width: 1100px;
+    padding-bottom: 15px;
+    @include background_shadow;
+    &:after {
+        @include clearfix;
+    }
+    .text__content {
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 20px;
+    color: $text;
+    text-align: justify;
+
+    &:last-child {
+    margin-left: 3%;
+    list-style-position: inside;
+}
+    h2 {
+    margin-bottom: 10px;
+}}
+    .text__button {
+    margin-top: 47px;
+    @include button;
+    
+}
+.text__button--first {
+    margin-top: 120px;
+    @include button;
+}
+
+.text__button--last {
+    margin-top: 47px;
+    @include button;
+}
+}
+
+
+
+
+
+
+

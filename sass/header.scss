@@ -1,0 +1,26 @@
+/*NAVIGATION*/
+
+.header {
+    @include background_shadow;
+    width: 100%;
+    max-width:1100px;
+    padding: 10px 0;
+}
+
+.header__link {
+    margin-left: 49px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: right;
+    color: $light_grey;  
+    &:active {
+    color: $red;
+}
+    &:hover {
+    color: $red;
+}
+    &:last-child{
+    float: right;
+    margin-right: 20px;
+}
+}

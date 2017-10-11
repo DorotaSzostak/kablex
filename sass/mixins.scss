@@ -1,0 +1,24 @@
+//background shadow//
+
+@mixin background_shadow {
+    background-color: #fff;
+    box-shadow: inset 1px 0px 29px -6px rgba(196,196,196,1);
+}
+
+@mixin clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@mixin button {
+    width: 71px;
+    height: 20px;
+    background-color: $button_blue;
+    border: none;
+    float: right;
+    a {
+    color: #fff;
+    font-size: 10px;
+}
+}

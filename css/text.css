@@ -1,0 +1,50 @@
+/*TABELA*/
+.text {
+  width: 100%;
+  max-width: 1100px;
+  background: #fff; }
+
+.text__content {
+  float: left;
+  width: 331px;
+  margin-left: 21px;
+  margin-top: 56px;
+  color: #454545;
+  text-align: justify;
+  padding-left: 5px; }
+
+.text__content:last-child {
+  margin-left: 31px; }
+
+.text__content h2 {
+  margin-bottom: 10px; }
+
+.text__button {
+  width: 71px;
+  height: 20px;
+  float: right;
+  margin-top: 47px;
+  background-color: #28166f;
+  border: none; }
+
+.text__button--first {
+  width: 71px;
+  height: 20px;
+  float: right;
+  margin-top: 120px;
+  background-color: #28166f;
+  border: none; }
+
+.text__button--last {
+  width: 71px;
+  height: 20px;
+  float: right;
+  margin-top: 47px;
+  background-color: #28166f;
+  border: none; }
+
+.text__button a,
+.text__button--first a,
+.text__button--last a {
+  color: #c9c5db;
+  font-size: 10px; }

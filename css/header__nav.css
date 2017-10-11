@@ -1,17 +1,18 @@
 /*NAVIGATION*/
 
-.container__header {
+.header {
     background-color: #fff;
     box-shadow: inset 1px 0px 29px -6px rgba(196,196,196,1);
     width: 100%;
     max-width:1100px;
+    padding: 5px 0;
 }
 
 .header__nav {
 padding-top: 10px;
 }
 
-.header__nav--link {
+.header__link {
     margin-left: 49px;
     font-size: 18px;
     text-decoration: none;
@@ -19,15 +20,15 @@ padding-top: 10px;
     color: rgba(135, 135, 135, 255);  
 }
 
-.header__nav--link:active {
+.header__link:active {
     color: #da251d;
 }
 
-.header__nav--link:hover {
+.header__link:hover {
     color: #da251d;
 }
 
-.header__nav--link:last-child{
+.header__link:last-child{
     float: right;
     margin-right: 20px;
 }
