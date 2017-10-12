@@ -1,0 +1,8 @@
+/*TEKST*/
+.text {
+  color: #454545;
+  margin-top: 16px;
+  margin-bottom: 11px; }
+  .text .text__main {
+    text-align: justify;
+    line-height: 1.5em; }

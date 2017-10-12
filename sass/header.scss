@@ -5,6 +5,9 @@
     width: 100%;
     max-width:1100px;
     padding: 10px 0;
+    &:after {
+        @include clearfix;
+    }
 }
 
 .header__link {
@@ -23,4 +26,7 @@
     float: right;
     margin-right: 20px;
 }
+    @include mQ(425px){
+        font-size: 12px;
+    }
 }

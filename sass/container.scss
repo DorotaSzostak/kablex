@@ -5,5 +5,13 @@
 }
 
 .logo {
+    width: 30%;
     margin: 0px 0px;
+     @include mQ(425px){
+       width: 50%;
+    }
+}
+
+.logo__img {
+    width: 100%;
 }

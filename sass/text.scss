@@ -15,6 +15,9 @@
     margin-top: 20px;
     color: $text;
     text-align: justify;
+           @include mQ(425px){
+       width: 100%;
+    }
 
     &:last-child {
     margin-left: 3%;
@@ -22,6 +25,7 @@
 }
     h2 {
     margin-bottom: 10px;
+     
 }}
     .text__button {
     margin-top: 47px;

@@ -1,0 +1,14 @@
+/*TEKST*/
+.oferta {
+    color: rgba(104, 104, 104, 255);
+    margin-top: 16px;
+    margin-bottom: 11px;
+    .oferta__main {
+    text-align: justify;
+    line-height: 1.5em;
+}
+    .oferta__breadcrumb {
+        @include breadcrumb;
+    }
+}
+

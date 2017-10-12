@@ -22,3 +22,30 @@
     font-size: 10px;
 }
 }
+
+@mixin breadcrumb {
+    list-style: none;
+    font-size: 22px;
+        li {
+    display: inline-block; 
+    margin-bottom: 10px;
+    font-weight: 700;
+&:last-child {
+    font-size: 20px;
+}
+a {
+    color:  rgba(69, 69, 69, 255);
+}}
+
+li+li:before {
+    color: rgba(69, 69, 69, 255);
+    content: "\003e";
+    padding: 2px;;
+}
+}
+
+@mixin mQ($arg){
+    @media screen and (max-width: $arg){
+        @content;
+    }
+}
